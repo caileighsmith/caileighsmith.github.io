@@ -73,7 +73,48 @@
                 flex-basis: 100%;
                 height: 0;
             }
+            #nav{
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color:#BFB6BB;
+                flex-wrap: wrap;
+                border-radius: 30px;
+            }
+            #nav a{
+                text-decoration: none;
+                
+            }
 
+            #am{
+                margin: 40px;
+            }
+            #ex{
+                margin: 40px;
+            }
+            #ct{
+                margin: 40px;
+            }
+            #am:hover{
+                transform: scale(1.8);
+            
+            }
+            #ex:hover{
+                transform: scale(1.8);
+            }
+            #ct:hover{
+                transform: scale(1.8);
+            }
+            #footer{
+               
+                background-color: #A5D8FF;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                text-align: center;
+            }
 
         </style>
 
@@ -87,6 +128,14 @@
                 <h1> Caillou Leigh-Smith</h1>
                 <h2> Digital Resume/CV</h2>
             </div>
+            <br>
+            <div id="nav">
+                <a href="#about-me"> <p id="am">About me</p> </a> 
+                <a href="#experience"> <p id="ex">Experience</p></a> 
+                <a href="#certificates"> <p id="ct">Certificates</p></a> 
+            </div>
+            <br><br><br>
+
             <div id="about-me">
                 <h2> About me: </h2>
                 <p>With a passion for cybersecurity, I have achieved several Cisco certificates. During these, I obtained new knowledge and skills surrounding cybersecurity.
@@ -140,7 +189,9 @@
 
 
 
-
+        <div id="footer">
+            <p> Created by Cai Leigh-Smith - 2021</p>
+        </div>
     </body>
 
 
