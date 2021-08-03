@@ -3,7 +3,7 @@
         <title> Resume - Cai Leigh-Smith</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <style>
             #desc{
                 text-align: center;
@@ -11,7 +11,8 @@
             }
             body{
                 background-color: black;
-                font-family: 'Varela', sans-serif;
+                font-family: 'Montserrat', sans-serif;
+                color: black;
             }
             #main{
                 display: flex;
@@ -29,7 +30,7 @@
                 border-radius: 30px;
             }
             p{
-                color: #36393B;
+                color:black;
 
             }
             h2{
@@ -80,22 +81,16 @@
                 margin: 10px;
                 border-radius: 30px;
             }
-            #introcyber:hover{
-                transform: scale(1.1);
-            }
-            #cyberessentials:hover{
-                transform: scale(1.1);
-            }
-            #Entrepreneurship:hover{
-                transform: scale(1.1);
-            }
-            #peermentoring:hover{
-                transform: scale(1.1);
-            }
-            #paloalto:hover{
-                transform: scale(1.1);
-            }
             
+            .cert:hover{
+                transform: scale(1.1);
+            }
+            .cert:active{
+                transform: scale(1);
+            }
+
+
+
 
             #break{
                 flex-basis: 100%;
@@ -142,18 +137,12 @@
                 padding: 20px;
                 border-radius: 30px;
             }
-            #am:hover{
-                transform: scale(1.2);
             
+            .navlinks:hover{
+                transform:scale(1.2)
             }
-            #ex:hover{
-                transform: scale(1.2);
-            }
-            #ct:hover{
-                transform: scale(1.2);
-            }
-            #edu:hover{
-                transform: scale(1.2);
+            .navlinks:active{
+                transform: scale(1);
             }
             #footer{
                 background-color: white;
@@ -162,8 +151,8 @@
                 width: 100%;
                 color: white;
                 text-align: center;
-                height
             }
+
             #links{
                 display: flex;
                 justify-content:center;
@@ -194,6 +183,7 @@
                 padding: 40px;
                 
             }
+            
            
         </style>
     </head>
@@ -209,10 +199,10 @@
             </div>
             <br>
             <div id="nav">
-                <a href="#about-me"> <p id="am">About me</p> </a> 
-                <a href="#experience"> <p id="ex">Experience</p></a> 
-                <a href="#education"> <p id="edu">Education</p></a>
-                <a href="#certificates"> <p id="ct">Certificates</p></a> 
+                <a href="#about-me"> <p id="am" class="navlinks">About me</p> </a> 
+                <a href="#experience"> <p id="ex" class="navlinks">Experience</p></a> 
+                <a href="#education"> <p id="edu" class="navlinks">Education</p></a>
+                <a href="#certificates"> <p id="ct" class="navlinks">Certificates</p></a> 
             </div>
             <br>
 
@@ -278,11 +268,11 @@
             <div id="certificates">
                 <h2> Licenses & Certificates: </h2>
                 <div id="break"></div>
-                <div id="introcyber"> <strong> Introduction to cybersecurity</strong> - Cisco</div>
-                <div id="cyberessentials"> <strong> Cybersecurity essentials</strong> - Cisco </div>
-                <div id="Entrepreneurship"> <strong> Entrepreneurship</strong> - Cisco</div>
-                <div id="peermentoring"> <strong> Peer mentoring</strong> - Kidscape</div>
-                <div id="paloalto"> <strong> Cybersecurity foundation</strong> - Palo Alto Networks</div>
+                <div id="introcyber" class="cert"> <strong> Introduction to cybersecurity</strong> - Cisco</div>
+                <div id="cyberessentials" class="cert"> <strong> Cybersecurity essentials</strong> - Cisco </div>
+                <div id="Entrepreneurship" class="cert"> <strong> Entrepreneurship</strong> - Cisco</div>
+                <div id="peermentoring" class="cert"> <strong> Peer mentoring</strong> - Kidscape</div>
+                <div id="paloalto" class="cert"> <strong> Cybersecurity foundation</strong> - Palo Alto Networks</div>
             </div>
 
         </div>
