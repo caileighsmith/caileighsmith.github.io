@@ -1,0 +1,22 @@
+{
+  "name": "caileighsmith.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caileighsmith/caileighsmith.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caileighsmith/caileighsmith.github.io/issues"
+  },
+  "homepage": "https://github.com/caileighsmith/caileighsmith.github.io#readme",
+  "dependencies": {
+    "yahoo-finance": "^0.3.7"
+  }
+}
