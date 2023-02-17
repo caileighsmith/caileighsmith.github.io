@@ -96,6 +96,10 @@ section{
     .hd1:hover{
         transform:translate(30px)
     }
+    .hd1{
+        font-size: 8vh;
+        gap: 0;
+    }
 
     .links:has(:hover) .hd1:not(:hover, .hd1:hover) {
         opacity: 0.1;
